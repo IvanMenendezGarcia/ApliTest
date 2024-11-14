@@ -1,0 +1,52 @@
+[
+    {
+        "type": "multiple-choice",
+        "question": "¿Cuál es la capital de Francia?",
+        "answers": [
+            "París",
+            "Londres",
+            "Madrid",
+            "Berlín"
+        ],
+        "correct": [0],
+        "imageUrl": "images/paris.jpg"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "¿Cuál es el río más largo del mundo?",
+        "answers": [
+            "Nilo",
+            "Amazonas",
+            "Yangtsé",
+            "Misisipi"
+        ],
+        "correct": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "¿Cuáles son planetas del sistema solar?",
+        "answers": [
+            "Tierra",
+            "Marte",
+            "Júpiter",
+            "Plutón"
+        ],
+        "correct": [0, 1, 2]
+    },
+    {
+        "type": "ordering",
+        "question": "Ordena las siguientes frutas alfabéticamente:",
+        "answers": [
+            "pera",
+            "manzana",
+            "naranja",
+            "melocotón"
+        ],
+        "correct": [
+            "manzana",
+            "melocotón",
+            "naranja",
+            "pera"
+        ]
+    }
+]
