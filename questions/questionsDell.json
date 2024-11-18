@@ -1,0 +1,216 @@
+{
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "How many volumes can be created at a time using the PowerStore Manager?",
+      "answers": [
+        "64",
+        "100",
+        "128",
+        "200"
+      ],
+      "correct": [
+        1
+      ]
+    },
+    {
+      "question": "What are two properties of the VMware file system which are supported by PowerStore? (Choose two.)",
+      "answers": [
+        "Supports VAAI primitives",
+        "Available with NFS datastores",
+        "Supports quotas",
+        "Available with VMFS datastores"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "The wan connection between the production and DR sites has a low latency of <5 milliseconds.",
+      "answers": [
+        "13333",
+        "13335",
+        "13334",
+        "13336"
+      ],
+      "correct": [
+        0
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "What is the maximum number of supported replication and snapshot rules in a protection policy?",
+      "answers": [
+        "One snapshot rule and four replication rules",
+        "One snapshot rule and one replication rule",
+        "Four snapshot rules and one replication rule",
+        "Four snapshot rules and four replication rules"
+      ],
+      "correct": [
+        2
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "At what point in the configuration of an External Storage import session does the data path from the host to the PowerStore system become the active I/O path?",
+      "answers": [
+        "When the import session begins",
+        "As MPIO restarts on the host",
+        "Before launching the Import Storage wizard",
+        "During the ImportKit installation"
+      ],
+      "correct": [
+        1
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "Which statement about File Mobility Network configuration is correct?",
+      "answers": [
+        "File mobility network is created on the same subnet and VLAN as the management network",
+        "File mobility network is created with an optional Cluster IP",
+        "File mobility network is created on the same subnet and VLAN as the storage network",
+        "File mobility network is created under the management tab in PowerStore Manager"
+      ],
+      "correct": [
+        0
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "What are two minimum requirements for using VMware Site Recovery Manager (SRM) with PowerStore? (Choose two.)",
+      "answers": [
+        "VMware SRM version 8.3 and newer",
+        "VMware SRM version 8.0 and newer",
+        "VMware vCenter Server and ESXi hosts version 6.5 and newer",
+        "VMware vCenter Server and ESXi hosts version 6.7 and newer"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "Which drive configuration is available for the PowerStore ENS24 Expansion Enclosure?",
+      "answers": [
+        "NVMe NVRAM",
+        "NVMe SSD",
+        "SAS SSD",
+        "NVMe SCM"
+      ],
+      "correct": [
+        1
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "Which two operations does the PowerStore NAS VAAI plug-in support? (Choose two.)",
+      "answers": [
+        "Space Reclaim",
+        "Quota Exceeded Behavior",
+        "Reserve space",
+        "Atomic Test and Set",
+        "Extended Statistics"
+      ],
+      "correct": [
+        2,
+        4
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "Refer to the exhibit. Which SMB path is used to access the share from client side?",
+      "answers": [
+        "\\\\SMB-FS07\\Sales\\Hmarine_Sales",
+        "\\\\nas-smb07.hmarine test\\SMB-FS07\\ Hmarine_Sales",
+        "\\\\SMB-FS07\\Hmarine_Sales",
+        "\\\\nas-smb07.hmarine.test\\ Hmarine_Sales"
+      ],
+      "correct": [
+        3
+      ],
+      "type": "multiple-choice",
+      "imageUrl": "images/image1.png"
+    },
+    {
+      "question": "While trying to add iSCSI hosts to a host group, some of the hosts are not showing up within the Add Host Group list. What is causing this?",
+      "answers": [
+        "Missing hosts have mapped volumes",
+        "iSCSI CHAP is disabled",
+        "Storage network is not configured",
+        "Missing hosts are marked for iSCSI and FC"
+      ],
+      "correct": [
+        0
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "An administrator is attempting to create a protection policy while creating an SMB share however the option is not available. What is the reason?",
+      "answers": [
+        "The protection policy has been previously associated with a file system",
+        "The protection policy must be created before associating it with the volume resource",
+        "The protection policy must be created before associating it with the file system",
+        "The protection policy is only available with file level retention enabled"
+      ],
+      "correct": [
+        2
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "Which requirement of a source storage system is invalid when participating in PowerStore Native Import migration?",
+      "answers": [
+        "With iSCSI connectivity between source and PowerStore, Global storage IP address is not required",
+        "Administrator privileges are required on the source and associated hosts to import to a PowerStore cluster",
+        "For EqualLogic, the front-end connectivity must be iSCSI",
+        "For PowerMax or VMAX, the front-end connectivity must be FC"
+      ],
+      "correct": [
+        0
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "A storage administrator is configuring an import session from a VNX2 for Windows host data. The administrator inputs the SPA IP address into the Add Remote System configuration. The administrator then checks the Verify Alternate Address option for the User Authentication configuration. What does this action provide?",
+      "answers": [
+        "Selects the PowerStore Global Storage Discovery IP",
+        "Generates a duplicate of the SPA RSA key for the SPB HTTPS certificate",
+        "Validates the SPB IP address and certificate for high availability"
+      ],
+      "correct": [
+        2
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "Which of me following is true statement?",
+      "answers": [
+        "End-to-end NVMe-oF is supported with TCP only",
+        "PowerStore 500 is NEBS-compliant",
+        "PowerStore 500 is not NEBS-compliant",
+        "End-to-end NVMe-oF is supported with FC only"
+      ],
+      "correct": [
+        1
+      ],
+      "type": "multiple-choice"
+    },
+    {
+      "question": "A customer has a new PowerStore T system that has been running for 45 days with multiple host systems attached. A user with the storage administrator role attempts to create a volume for a host, but the option is unavailable. What is the cause?",
+      "answers": [
+        "Appliance has reached the 90% full threshold",
+        "The host is incorrectly zoned",
+        "Permanent license has not been applied",
+        "Incorrect privileges are assigned"
+      ],
+      "correct": [
+        2
+      ],
+      "type": "multiple-choice"
+    }
+  ]
+}
